@@ -1,0 +1,74 @@
+body{
+    background-color: aqua;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  border: 8px solid white; /* borde exterior */
+  padding: 30px; /* espacio para el marco interno */
+  box-sizing: border-box;
+}
+
+
+.borde-interno {
+  border: 5px solid white; /* grosor y color que tú quieras */
+  padding: 20px;
+  width: 100%;              /* ancho */
+  height: 280px; 
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+
+.borde-interno h1 {
+  font-size: 20px; /* Cambia el número para hacerlo más grande o pequeño */
+  position: absolute;
+  top: 70px;   /* mueve hacia abajo */
+  left: 600px;  /* mueve a la derecha */
+}
+
+.borde-interno h2 {
+  font-size: 20px; /* Cambia el número para hacerlo más grande o pequeño */
+  position: absolute;
+  top: 100px;   /* mueve hacia abajo */
+  left: 600px;  /* mueve a la derecha */
+}
+
+.borde-interno h3 {
+  font-size: 20px; /* Cambia el número para hacerlo más grande o pequeño */
+  position: absolute;
+  top: 130px;   /* mueve hacia abajo */
+  left: 600px;  /* mueve a la derecha */
+}
+
+.borde-interno h4 {
+  font-size: 20px; /* Cambia el número para hacerlo más grande o pequeño */
+  position: absolute;
+  top: 160px;   /* mueve hacia abajo */
+  left: 600px;  /* mueve a la derecha */
+}
+.borde-interno h5 {
+  font-size: 20px; /* Cambia el número para hacerlo más grande o pequeño */
+  position: absolute;
+  top: 190px;   /* mueve hacia abajo */
+  left: 600px;  /* mueve a la derecha */
+}
+
+.borde-interno h6 {
+  font-size: 20px; /* Cambia el número para hacerlo más grande o pequeño */
+  position: absolute;
+  top: 210px;   /* mueve hacia abajo */
+  left: 600px;  /* mueve a la derecha */
+}
+
+
+
+
+img {
+  position: absolute;
+  top: 65px;   /* baja */
+  left: 50px; /* mueve a la derecha */
+}
